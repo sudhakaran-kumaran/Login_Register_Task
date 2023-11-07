@@ -13,14 +13,20 @@
     <form class=" p-5 form-control w-50" action="hello" method="post">
     <p>FirstName : <input type="text" name="firstname"></p>
     <p>LastName : <input type="text" name="lastname"></p>
-    <p>Sports : <br><input type = "checkbox" name = "name" value="cricket">Cricket</p>
-                <input type = "checkbox" name = "name" value="football">FootBall</p>
-                <input type = "checkbox" name = "name" value="tabletennis">TableTennis</p>
-                <input type = "checkbox" name = "name" value="caromboard">CaromBoard
-    </p>
-   <p>Gender : <input type="radio" >Male <input type="radio">Female</p>
-   <p>Email : <input type="email" name="email"></p>
-   <p>Username : <input type="text" name="username"></p>
+    <p>Sports : <input type = "checkbox" name = "sports" value="cricket">Cricket
+                <input type = "checkbox" name = "sports" value="football">FootBall
+                <input type = "checkbox" name = "sports" value="tabletennis">TableTennis
+                <input type = "checkbox" name = "sports" value="caromboard">CaromBoard</p>
+   <p>Gender : <input name="gender" value="Male" type="radio" >Male <input name="gender" value="Female" type="radio">Female</p>
+   <label for="course">Choose a course:</label>
+     <select name="course" id="course">
+       <option value="Java">Java</option>
+       <option value="C">C</option>
+       <option value="C++">C++</option>
+       <option value="Python">Python</option>
+     </select>
+   <p>Email : <input type="email" name="email" class="my-2"></p>
+   <p>Username : <input type="text" name="username" class="my-2"></p>
    <p>Password : <input type="text" name="password"></p>
 
 
